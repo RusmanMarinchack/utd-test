@@ -1,8 +1,8 @@
 "use strict"
 
-const blockOne = document.querySelector('.blockOne');
-const blockTwo = document.querySelector('.blockTwo');
-const blockThree = document.querySelector('.blockThree');
+const blockOne = document.querySelector('.block-one');
+const blockTwo = document.querySelector('.block-two');
+const blockThree = document.querySelector('.block-three');
 
 // Function 1
 function test1(a, b, c, e) {
