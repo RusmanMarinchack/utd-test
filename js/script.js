@@ -212,4 +212,6 @@ function testTen(arr) {
     return arrNew
 }
 
-blockTen.innerHTML += `${testTen([1, 2, 1, 8, 'r', 'a', 'a', 'a', 'p', 7, 10])}`
+const result = testTen([1, 2, 1, 8, 'r', 'a', 'a', 'a', 'p', 7, 10]).join()
+
+blockTen.innerHTML += `${result}`
