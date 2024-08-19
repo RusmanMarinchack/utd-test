@@ -1,15 +1,15 @@
 "use strict"
 
-const blockOne = document.querySelector('.block-one');
-const blockTwo = document.querySelector('.block-two');
-const blockThree = document.querySelector('.block-three');
-const blockFour = document.querySelector('.block-four');
-const blockFive = document.querySelector('.block-five');
-const blockSix = document.querySelector('.block-six');
-const blockSeven = document.querySelector('.block-seven');
-const blockEight = document.querySelector('.block-eight');
-const blockNine = document.querySelector('.block-nine');
-const blockTen = document.querySelector('.block-ten');
+const blockOne = document.querySelector('.js-task-one');
+const blockTwo = document.querySelector('.js-task-two');
+const blockThree = document.querySelector('.js-task-three');
+const blockFour = document.querySelector('.js-task-four');
+const blockFive = document.querySelector('.js-task-five');
+const blockSix = document.querySelector('.js-task-six');
+const blockSeven = document.querySelector('.js-task-seven');
+const blockEight = document.querySelector('.js-task-eight');
+const blockNine = document.querySelector('.js-task-nine');
+const blockTen = document.querySelector('.js-task-ten');
 
 let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
@@ -177,8 +177,9 @@ function testNine(directions) {
     })
 
     // If there is not enough time, we issue false.
+
     if (time <= 0) {
-        return false
+        return
     }
 
     return true
@@ -199,7 +200,7 @@ function testTen(arr) {
         }
     })
 
-    arrNew.forEach(item => {
+    for (let i=0; i<arrNew.length; i++) {
         arrNew.forEach((item2, index2) => {
             if (index2 < arr.length - 1 && arrNew[index2] > arrNew[index2 + 1]) {
                 a = item2
@@ -207,7 +208,7 @@ function testTen(arr) {
                 arrNew[index2 + 1] = a
             }
         })
-    })
+    }
 
     return arrNew
 }
