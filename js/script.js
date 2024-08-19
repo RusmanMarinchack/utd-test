@@ -1,7 +1,7 @@
 "use strict"
 
-const blockOne = document.querySelector('.block-one');
-const blockTwo = document.querySelector('.block-two');
+const blockOne = document.querySelector('.js-task-one');
+const blockTwo = document.querySelector('.js-task-two');
 
 // Task 1
 function taskOne(N) {
