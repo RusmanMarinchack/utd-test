@@ -1,0 +1,21 @@
+import taskOne from "./js/task-one.js";
+import taskTwo from "./js/task-two.js";
+import taskThree from "./js/task-three.js";
+import taskFour from "./js/task-four.js";
+import taskFive from "./js/task-five.js";
+import taskSix from "./js/task-six.js";
+import taskSeven from "./js/task-seven.js";
+import taskEight from "./js/task-eight.js";
+import taskNine from "./js/task-nine.js";
+import taskTen from "./js/task-ten.js";
+
+taskOne();
+taskTwo();
+taskThree();
+taskFour();
+taskFive();
+taskSix();
+taskSeven();
+taskEight();
+taskNine();
+taskTen();
